@@ -1,0 +1,15 @@
+.chess td{
+  height: 80px;
+  width: 80px;
+  border: 1px solid grey;
+  background-image:url("../img/wood-2.jpg");
+  background-size: 100%;
+}
+.chess tr:nth-child(odd) td:nth-child(odd) {
+  background-image:url("../img/wood-1.jpg");
+  background-size: 100%;
+}	
+.chess tr:nth-child(even) td:nth-child(even) {
+	background-image:url("../img/wood-1.jpg");
+  background-size: 100%;
+}
